@@ -1,5 +1,5 @@
 {
-  "name": "npm-audit-html-dev",
+  "name": "npm-audit-html",
   "version": "0.0.0-development",
   "description": "Generate a HTML report for NPM Audit",
   "main": "index.js",
@@ -19,10 +19,7 @@
     "travis-deploy-once": "travis-deploy-once --pro"
   },
   "author": "eventOne Labs <opensource@event1.io>",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eventOneHQ/npm-audit-html.git"
-  },
+  "repository": "eventOneHQ/npm-audit-html",
   "license": "MIT",
   "devDependencies": {
     "commitizen": "^4.0.3",
@@ -59,12 +56,5 @@
       "npm run lint!",
       "git add"
     ]
-  },
-  "bugs": {
-    "url": "https://github.com/eventOneHQ/npm-audit-html/issues"
-  },
-  "homepage": "https://github.com/eventOneHQ/npm-audit-html#readme",
-  "directories": {
-    "lib": "lib"
   }
 }
